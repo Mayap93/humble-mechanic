@@ -11,18 +11,27 @@
     </header>
 
   <main>
-    <form class="main-contactForm" action="index.html" method="post">
-      <label for="Name"></label>
-      <input type="text" class="main-contactForm-name" placeholder="Write your name here...">
-      <label for="Bookingnumber"></label>
-      <input type="text" class="main-contactForm-booking" placeholder="Your booking number...">
-      <label for="comment"></label>
-      <textarea class="main-contactForm-comment" rows="8" cols="80" placeholder="Write your comment here..."></textarea>
-      <input type="submit" class="main-contactForm-button" value="Submit">
-
-    </form>
+    <form action="" class="main-contactForm" name="form">
+      <label for="Name">Name</label><br>
+      <input type="text" id="main-contactForm-name" value="" name="name" required>
+      <label for="Bookingnumber">Booking number</label>
+      <input type="text" id="main-contactForm-email" value="" name="booking" required>
+      <label for="Email">E-mail</label>
+      <input type="text" id="main-contactForm-phone" value="" name="email" required>
+      <label for="phone">Phone number</label>
+      <input type="text" id="main-contactForm-booking" value="" name="phone" required>
+      <label for="comment">Your comment</label>
+      <textarea id="main-contactForm-comment" rows="8" cols="80" value="" name="comment" required></textarea>
+<button onclick="myFunction()" class="main-button">Submit</button>
+<div id="nextButtonSection-paragraph"><div class="nextButtonSection-alert">
+      <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+      <strong>Succes!</strong> You have sent us a message!
+      </div></div>
+  </form>
   </main>
 
+<script src="js/javascript.js">
 
+</script>
   </body>
 </html>
