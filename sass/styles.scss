@@ -1,0 +1,44 @@
+$font-stack: 'Arial', sans-serif;
+$font-size: 1em;
+
+@mixin display-flex {
+  display: flex;
+}
+@mixin margin-auto {
+  margin: auto;
+}
+
+header {
+  @include display-flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+body {
+  background-color: #5072f0;
+}
+
+.header-title {
+  @include margin-auto;
+  font: 100% $font-stack;
+  font-size: 30px;
+}
+
+.main-contactForm {
+@include display-flex;
+flex-direction: column;
+}
+
+.main-contactForm-name, .main-contactForm-booking, .main-contactForm-comment {
+  @include margin-auto;
+  font: 100% $font-stack;
+  width: 50%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.main-contactForm-button {
+  font: 100% $font-stack;
+  @include margin-auto;
+  width: 10%;
+  margin-top: 10px;
+}

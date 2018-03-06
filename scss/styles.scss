@@ -1,0 +1,15 @@
+@mixin font-stack {
+  font-family: 'Arial', 'Helvetica', sans-serif;
+}
+@mixin font-size {
+  font-size: 1em;
+}
+
+.header-title {
+  @include $font-stack;
+}
+
+.main-contactForm-name {
+  color: red;
+  border-radius: 5px;
+}

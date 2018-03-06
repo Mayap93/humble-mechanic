@@ -1,0 +1,31 @@
+header {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+body {
+  background-color: #5072f0; }
+
+.header-title {
+  margin: auto;
+  font: 100% "Arial", sans-serif;
+  font-size: 30px; }
+
+.main-contactForm {
+  display: flex;
+  flex-direction: column; }
+
+.main-contactForm-name, .main-contactForm-booking, .main-contactForm-comment {
+  margin: auto;
+  font: 100% "Arial", sans-serif;
+  width: 50%;
+  padding: 10px;
+  margin-top: 10px; }
+
+.main-contactForm-button {
+  font: 100% "Arial", sans-serif;
+  margin: auto;
+  width: 10%;
+  margin-top: 10px; }
+
+/*# sourceMappingURL=styles.css.map */
